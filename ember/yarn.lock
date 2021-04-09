@@ -1455,7 +1455,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@glimmer/component@1.0.4", "@glimmer/component@^1.0.2", "@glimmer/component@^1.0.4":
+"@glimmer/component@1.0.4", "@glimmer/component@^1.0.2", "@glimmer/component@^1.0.3", "@glimmer/component@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@glimmer/component/-/component-1.0.4.tgz#1c85a5181615a6647f6acfaaed68e28ad7e9626e"
   integrity sha512-sS4N8wtcKfYdUJ6O3m8nbTut6NjErdz94Ap8VB1ekcg4WSD+7sI7Nmv6kt2rdPoe363nUdjUbRBzHNWhLzraBw==
@@ -6898,18 +6898,21 @@ ember-fetch@8.0.4:
     node-fetch "^2.6.1"
     whatwg-fetch "^3.4.0"
 
-ember-flatpickr@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/ember-flatpickr/-/ember-flatpickr-3.0.1.tgz#e8a56dea1230984220cb0a13cd5e7f8dea064300"
-  integrity sha512-16aUvlV7nkm/GA+0aXHJmvcRzJYY+A2V9rtsCqrPHEch00x1udJicrNonSV4YQ/JmnjScuC/nY/61T2jYfVqgg==
+ember-flatpickr@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ember-flatpickr/-/ember-flatpickr-3.1.1.tgz#a45f30693516e40098f6428f4a3f49c421eb49f7"
+  integrity sha512-01WO3WH0h/BvUE57IxWzTHrGMGlX/9KjrIIq/NuBmJOjcE8yVj9uGI5Y+TsUoPdtJ5q7VhEtnNttx0YJ2It8Ug==
   dependencies:
     "@ember/render-modifiers" "^1.0.2"
+    "@glimmer/component" "^1.0.3"
+    "@glimmer/tracking" "^1.0.3"
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^4.2.0"
     broccoli-stew "^3.0.0"
-    ember-cli-babel "^7.21.0"
-    ember-cli-htmlbars "^5.2.0"
-    flatpickr "^4.6.6"
+    ember-cli-babel "^7.23.1"
+    ember-cli-htmlbars "^5.3.2"
+    ember-cli-typescript "^4.1.0"
+    flatpickr "^4.6.9"
 
 ember-focus-trap@^0.4.0:
   version "0.4.0"
@@ -8382,7 +8385,7 @@ flat-cache@^3.0.4:
     flatted "^3.1.0"
     rimraf "^3.0.2"
 
-flatpickr@^4.6.6:
+flatpickr@^4.6.9:
   version "4.6.9"
   resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.9.tgz#9a13383e8a6814bda5d232eae3fcdccb97dc1499"
   integrity sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==
