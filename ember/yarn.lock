@@ -4677,10 +4677,10 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-cesium@1.74.0:
-  version "1.74.0"
-  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.74.0.tgz#79038abd40eb3e3a3223162d0984daf6d09496fb"
-  integrity sha512-PwHOz4nF9SUYrEo3Bcz0V7ebsB1XWqRkBkMWkn4BduBxNEzH8QdJ7ipuuNu8KZHfy3a1H2cOrwD8y8TikYmO8Q==
+cesium@1.82.1:
+  version "1.82.1"
+  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.82.1.tgz#ca231d4dee8bc02126dfbd57e9474b7bd65d8f40"
+  integrity sha512-BpyQ3KF6ZPPicW5L3khPJA0fKWL1ViA5cV1hFa/8zWiJ/1ix3+kyzrvaAlUdy/knn9xY70ePnNYwokIs+d2znw==
 
 chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
