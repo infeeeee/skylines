@@ -1412,6 +1412,15 @@
     "@embroider/macros" "0.36.0"
     ember-cli-babel "^7.22.1"
 
+"@embroider/util@^0.39.1":
+  version "0.39.1"
+  resolved "https://registry.yarnpkg.com/@embroider/util/-/util-0.39.1.tgz#7cec8ea13d8ce73539179d47d2564d8c09d055f6"
+  integrity sha512-3sQlpEjOXt03sId8ZYGWjm6SdQaR78Ppa6LwLon76kYsDM8J2hRXY1Zcpt1rKTSuOyXs/0Pc5+ri1MNfJKD3DA==
+  dependencies:
+    "@embroider/macros" "0.39.1"
+    broccoli-funnel "github:ef4/broccoli-funnel#c70d060076e14793e8495571f304a976afc754ac"
+    ember-cli-babel "^7.23.1"
+
 "@embroider/webpack@0.39.1":
   version "0.39.1"
   resolved "https://registry.yarnpkg.com/@embroider/webpack/-/webpack-0.39.1.tgz#ed8373fbd0f9dd85eff82301d656eb14043d3682"
@@ -6854,14 +6863,14 @@ ember-destroyable-polyfill@^2.0.2:
     ember-cli-version-checker "^5.1.1"
     ember-compatibility-helpers "^1.2.1"
 
-ember-element-helper@0.4.0, ember-element-helper@^0.3.1, ember-element-helper@^0.3.2:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/ember-element-helper/-/ember-element-helper-0.4.0.tgz#e85671c4b04be4ed247024d62d47378b980f5c90"
-  integrity sha512-CYNhdqT094qXbQYqQ9IrH0Fg/Eq8HC3X8L2ULChyC2qqm8D2o7E+q3H3G5k0owcyWx21LJdziLGPlJYG++FeVg==
+ember-element-helper@0.5.2, ember-element-helper@^0.3.1, ember-element-helper@^0.3.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/ember-element-helper/-/ember-element-helper-0.5.2.tgz#0b34db23c402b3869cdbbd54413d5348cf6431ec"
+  integrity sha512-j5m+piXKzzBDJz/IXaWB8avr0XBMRuqgA2O+j2PZt8m5k3QhMedkIeTwUxRNBxRa0ZyHkO0yb9acPlf3rbCSqQ==
   dependencies:
+    "@embroider/util" "^0.39.1"
     ember-cli-babel "^7.17.2"
     ember-cli-htmlbars "^5.1.0"
-    ember-compatibility-helpers "^1.2.1"
 
 ember-event-helpers@0.1.1:
   version "0.1.1"
